@@ -127,3 +127,18 @@ function dayOfWeek(days:number){
 
 
 dayOfWeek(5)
+
+
+function weather(temp:number) {
+    if (temp<=30) {
+        console.log("Wear warm Cloths")
+    } else if (temp<=30 || temp<=60) {
+        console.log("Wear light Cloths") 
+        
+    } else  {
+        console.log("Wear Cold Cloths")}
+    
+}
+
+
+weather(38)
