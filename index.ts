@@ -168,3 +168,43 @@ function leapYear(year:number) {
 }
 
 leapYear(2017)
+
+//Write a program that takes the number of units consumed by a user if it is greater than 100 
+// then add 10% tax if greater than 200 then add 15% of tax so on up to if greater than 500 then
+// add 25% of tax
+
+
+
+
+
+function bill (units:number){
+    let unitPrice=10;
+    let tax:number
+    let finalBill
+    let billPrice
+    if (units <= 100){
+        tax=1.1
+         billPrice=units*unitPrice
+     finalBill= tax*billPrice
+     console.log(finalBill)
+    }
+    else if (units  <= 200){
+        tax=1.15
+         billPrice=units*unitPrice
+     finalBill= tax*billPrice
+      console.log(finalBill)
+    }
+    else if (units <=500){
+        tax=2.25
+         billPrice=units*unitPrice
+     finalBill= tax*billPrice
+      console.log(finalBill)
+    }
+    }
+    bill(50)
+    bill(100)
+    bill(200)
+    bill(300)
+    bill(400)
+    bill(500)
+    bill(600)
