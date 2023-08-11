@@ -100,3 +100,8 @@ function weather(temp) {
     }
 }
 weather(38);
+function celsiusOFahrenheit(temp) {
+    let result = temp * (9 / 5) + 32;
+    console.log("Tempurature in Fahrenheit is " + result);
+}
+celsiusOFahrenheit(10);

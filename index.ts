@@ -142,3 +142,15 @@ function weather(temp:number) {
 
 
 weather(38)
+// Celsius to Fahrenheit 
+
+
+function celsiusOFahrenheit (temp:number) {
+    let result:number =temp*(9/5)+32;
+    console.log("Tempurature in Fahrenheit is " + result);
+    
+    
+}
+
+
+celsiusOFahrenheit(10)
