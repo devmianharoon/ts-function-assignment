@@ -154,3 +154,17 @@ function celsiusOFahrenheit (temp:number) {
 
 
 celsiusOFahrenheit(10)
+
+
+
+function leapYear(year:number) {
+    if (year%4==0) {
+        console.log("Year is Leap");
+        
+    } else {
+        console.log("Year is  not Leap");
+    }
+    
+}
+
+leapYear(2017)

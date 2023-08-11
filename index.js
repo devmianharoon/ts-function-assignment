@@ -100,8 +100,18 @@ function weather(temp) {
     }
 }
 weather(38);
+// Celsius to Fahrenheit 
 function celsiusOFahrenheit(temp) {
     let result = temp * (9 / 5) + 32;
     console.log("Tempurature in Fahrenheit is " + result);
 }
 celsiusOFahrenheit(10);
+function leapYear(year) {
+    if (year % 4 == 0) {
+        console.log("Year is Leap");
+    }
+    else {
+        console.log("Year is  not Leap");
+    }
+}
+leapYear(2017);
